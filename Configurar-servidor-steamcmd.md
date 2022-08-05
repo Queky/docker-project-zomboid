@@ -29,6 +29,16 @@ cd /home/steam/Steam/steamapps/common/Project\ Zomboid\ Dedicated\ Server/
 ./start-server.sh
 ```
 
+Para configurar servidor:
+```bash
+/home/steam/Zomboid
+```
+
+Aqui tenemos toda la conf:
+```bash
+/home/steam/Zomboid/Server/servertest.ini
+```
+
 FIX al iniciar juego (usar garbage collector viejo):
 -XX:+UseZGC" to "-XX:+UseG1GC" in ProjectZomboid64.json
 
